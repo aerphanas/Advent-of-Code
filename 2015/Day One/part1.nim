@@ -1,4 +1,4 @@
-import strutils
+from strutils import strip
 
 let content:string = readFile("input.txt").strip()
 var num:int = 0
