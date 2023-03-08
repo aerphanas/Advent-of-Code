@@ -1,9 +1,9 @@
 from strutils import strip
 
 let content:string = readFile("input.txt").strip()
-var num:int = 0
+var num:int
 
-for i in 0..content.len - 1:
+for i in 0 .. content.len - 1:
   case content[i]:
   of '(':
     num += 1

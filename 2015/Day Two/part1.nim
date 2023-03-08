@@ -9,7 +9,7 @@ var
 
 for i in 0 .. input.len - 1:
   let
-    ins: seq[string] = input[i].split("x")
+    ins: seq[string] = input[i].split "x"
     l: int = ins[0].parseInt
     w: int = ins[1].parseInt
     h: int = ins[2].parseInt
