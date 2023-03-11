@@ -2,7 +2,7 @@ from strutils import strip, splitLines, split, parseInt
 
 const
   content:string = readFile("input.txt").strip()
-  input = content.splitLines()
+  input: seq[string] = content.splitLines()
 
 var
   result:int
